@@ -1,0 +1,193 @@
+
+/* Main Page */
+
+.page {
+    min-height: 100vh;
+    background: #f5f7fb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+/* Main Profile Container */
+
+.profile-card {
+    width: 100%;
+    max-width: 850px;
+
+    background: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Profile Heading */
+
+.profile-card h1 {
+    text-align: center;
+
+    font-size: 32px;
+
+    color: #222;
+
+    margin: 0 0 10px;
+}
+
+
+/* Subtitle */
+
+.profile-card > p {
+    text-align: center;
+
+    color: #777;
+
+    font-size: 15px;
+
+    margin-bottom: 35px;
+}
+
+
+/* Table */
+
+.profile-card table {
+    width: 100%;
+
+    border-collapse: separate;
+
+    border-spacing: 0 18px;
+}
+
+
+/* Each Detail Card */
+
+.profile-card tr {
+    background: #f8f9fc;
+
+    border-radius: 12px;
+
+    transition: 0.3s ease;
+}
+
+
+/* Hover Effect */
+
+.profile-card tr:hover {
+    background: #f1f4f9;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+/* Label */
+
+.profile-card th {
+    width: 35%;
+
+    padding: 22px 25px;
+
+    text-align: left;
+
+    color: #777;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    border-radius: 12px 0 0 12px;
+}
+
+
+/* User Information */
+
+.profile-card td {
+    padding: 22px 25px;
+
+    color: #222;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    border-radius: 0 12px 12px 0;
+
+    word-break: break-word;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+    .page {
+        padding: 25px 15px;
+    }
+
+    .profile-card {
+        padding: 25px 18px;
+    }
+
+    .profile-card h1 {
+        font-size: 27px;
+    }
+
+    .profile-card > p {
+        font-size: 14px;
+
+        margin-bottom: 20px;
+    }
+
+    .profile-card table {
+        border-spacing: 0 12px;
+    }
+
+    .profile-card th {
+        width: 40%;
+
+        padding: 18px 15px;
+
+        font-size: 14px;
+    }
+
+    .profile-card td {
+        padding: 18px 15px;
+
+        font-size: 15px;
+    }
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 400px) {
+
+    .profile-card {
+        padding: 20px 12px;
+    }
+
+    .profile-card h1 {
+        font-size: 24px;
+    }
+
+    .profile-card th {
+        padding: 15px 10px;
+
+        font-size: 13px;
+    }
+
+    .profile-card td {
+        padding: 15px 10px;
+
+        font-size: 14px;
+    }
+}
+
